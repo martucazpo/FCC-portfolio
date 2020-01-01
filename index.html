@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
+
 <body>
     <div id="main-container" class="main-container">
         <nav id="navbar" class="navbar">
-            <a href="#projects" class="navlink"></a>
+            <a href="#projects" class="navlink">My Projects</a>
             <a href="https://github.com/martucazpo" id="profile-link" class="profile-link" target="_blank">
                 My Profile
             </a>
+            <a href="https://www.freecodecamp.org/" id="profile-link" class="profile-link" target="_blank">
+                The Free Code Camp
+            </a>
         </nav>
-        <div id="welcome-section" class="welcome-section">
-            <div class="welcome-wrapper">
-            <h1>Text</h1>
-            </div>
-        </section>
-        <section id="projects" class="projects-section">
-            <div class="project-tile">
-                <a class="project-link" href="https://martucazpo.github.io/FCC-tech-page/">
-                    Technical Design Page
-                </a>
-            </div>
-        </section>
+        <div class="content-container">
+            <section id="welcome-section" class="welcome-section">
+                <div class="welcome-wrapper">
+                    <div class=welcome-wrapper_text-div>
+                        <h1>I am Marco</h1>
+                        <p>A Web Developer</p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="projects-section">
+                <div class="project-header">
+                    <h2>Projects from The Free Code Camp</h2>
+                    <p>Click on image to see published project</p>
+                </div>
+                <div class="project-tile-wrapper">
+                    <div class="project-tile">
+                        <a class="project-link" href="https://martucazpo.github.io/FCC-tech-page/">
+                            <img src="images/projects/tech.png" alt="technical-design-page-image">
+                        </a>
+                        <div class="project-tile-header">
+                            <h3>Technical Design Page</h3>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <a class="project-link" href="https://martucazpo.github.io/FCC-tribute-page/">
+                            <img src="./images/projects/tribute.png" alt="tribute-page-image">
+                        </a>
+                        <div class="project-tile-header">
+                            <h3>Tribute Page</h3>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <a class="project-link" href="https://martucazpo.github.io/FCC-form-page/">
+                            <img src="./images/projects/form.png" alt="form-page-image">
+                        </a>
+                        <div class="project-tile-header">
+                            <h3>Form Page</h3>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <a class="project-link" href="https://martucazpo.github.io/FCC-landing-page/">
+                            <img src="./images/projects/landing.png" alt="landing-page-image">
+                        </a>
+                        <div class="project-tile-header">
+                            <h3>Landing Page</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <footer class="main-footer">
+            <p>2010 Marco Pipes</p>
         </footer>
-    </div>  
+    </div>
 </body>
-<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
