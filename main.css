@@ -182,7 +182,7 @@ html, body {
     text-decoration: none;
     font-size: 24px;
     color: hsl(144, 100%, 95%);
-    margin-right: 40px;
+    padding-right: 40px;
 }
 
 .main-footer a:hover {
@@ -209,5 +209,18 @@ html, body {
 
     .project-tile {
         width: 80%;
+    }
+
+    .main-footer a {
+        padding-right: 20px;
+    }
+
+    .main-footer a:first-child {
+        padding-left: 20px;
+    }
+
+
+    .main-footer p {
+        padding-right: 20px;
     }
 }
